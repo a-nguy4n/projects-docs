@@ -1,0 +1,125 @@
+@font-face{
+    font-family: "Doppio One";
+    src: url("/socal-social/fonts/DoppioOne-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Open Sans";
+    src: url("/socal-social/fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+h1{
+    font-family: "Doppio One";
+    color: white;
+    font-size: 3vw;
+}
+
+h2{
+    font-family: "Doppio One";
+    font-size: 2.25vw;
+    color: #552EAE;
+}
+
+h3{
+    font-family: "Doppio One";
+    font-size: 1.75vw;
+    color: #763599;
+}
+
+h4{
+    font-family: "Open Sans";
+    font-size: 1.45vw;
+    margin: 2%;
+    color: #b487cd;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 1.75vw;
+    line-height: 5vw;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+p,
+ol,
+ul{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.25vw;
+    color: rgb(14, 2, 42);
+    margin: 2%;
+}
+
+li{
+    margin-bottom: 1%;
+}
+
+span{
+    font-size: 1.75vw;
+}
+
+iframe{
+    margin: 1% 2% 1% 5.5%;
+    width: 65vw;
+    height: 35vw;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    gap: 3%;
+    overflow: hidden;
+}
+
+.tableContent-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 25%;
+    background: linear-gradient(to right, #3E29BC 0%, #783598 100%);
+}
+
+.sub-sections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-sections a{
+    font-size: 1.5vw;
+    line-height: 3.75vw;
+}
+
+.documentation{
+    display: flex;
+    flex-direction: column;    
+    width: 75%;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+#socal-demo{
+    margin-top: 1.75%;
+}
+
+#socal-visionDoc section{
+    margin: 2%;
+}

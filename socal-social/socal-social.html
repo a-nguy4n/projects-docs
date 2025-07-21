@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoCal Social</title>
+    <link rel="stylesheet" href="/socal-social/socal-social.css">
+</head>
+<body>
+    <div class="content">
+         <div class="tableContent-bar">
+            <h1> SoCal Social</h1>
+            <a href="#socal-demo"> Demo Video </a>
+            <a href="#socal-visionDoc"> Vision Document</a>
+            <div class="sub-sections">
+                <a href="#socal-visionStatement"> About: Vision Statement </a>
+                <a href="#socal-features"> Features</a>
+                <a href="#socal-overview"> Project Stakeholder Overview</a>
+                <a href="#socal-risks"> Risks </a>
+                <a href="#socal-techPlan"> Technology Plan </a>
+            </div>
+            <a href="#socal-mockups"> Wireframe & Mock-Ups </a>
+         </div>
+
+         <div class="documentation">
+            <div id="socal-demo">
+                <h2>Demo Video</h2>
+                <iframe
+                    src="https://www.youtube.com/embed/m3Xlao0JmpI"
+                    title="SoCal Social Demo Video"
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen> 
+                </iframe>
+            </div>
+            <section id="socal-visionDoc">
+                <h2> Vision Document </h2>
+                <section id="socal-visionStatement">
+                    <h3> About: Vision Statement </h3>
+                    <p> UC San Diego students are constantly hit with flyers, social media blasts, and endless
+                    invites on Library Walk - it’s easy to feel overwhelmed. That’s where our app, “SoCalSocial”,
+                    comes in. “SoCalSocial” aims to centralize and filter information on a more personalized 
+                    basis, showing students events that only matter to them. This reduces the stress from 
+                    information overload, so students can focus on what really matters without the clutter.</p>
+                </section>
+
+                <section id="socal-features">
+                    <h3> Features </h3>
+
+                    <h4> Basic (MVP Features) </h4>
+                    <ol>
+                        <li> <b>(Account)</b> 
+                            As a user, I would like to be able to have an account to store and manage my events.
+                        </li>
+                        <li> <b> (Event Management) </b> 
+                            As a student, I would like to “save” or “bookmark” events I want to attend, 
+                            so I can keep track of them.
+                        </li>
+                        <li> <b>(Events List)</b> 
+                            As a user, I would like to be able to see my upcoming saved events each day,
+                            so that I can see all my events in a centralized manner and plan my days accordingly.
+                        </li>
+                        <li> <b> (Event Information) </b> 
+                            As a user, I would like to see all information about various events to stay informed.
+                        </li>
+                    </ol>
+
+                    <h4> 100% Features </h4>
+                    <ol>
+                        <li> <b>(Mobile-centric design)</b> 
+                            As a user, I would like to be able to view all relevant information from my mobile 
+                            devices for convenience.
+                        </li>
+                        <li> <b>(Club-affiliated official accounts)</b> 
+                            As an organization, I want an account to be able to publish my events and for students 
+                            to discover my organization.
+                        </li>
+                        <li> <b>(Event management, organization)</b> 
+                            As an organization, I would like to keep the track of the events I have posted and 
+                            add new ones as fit
+                        </li>
+                         <li> <b>(Users can search for follow clubs)</b> 
+                            As a student, I would like a way to find and “favorite" or “follow” organizations 
+                            I am interested in such that I am always informed about their events.
+                        </li>
+                        <li> <b>(Attending/Interested/Not Attending)</b> 
+                            As an organization, I would like a way for students to specify their attendance status
+                            with respect to their event to know who is going and tailor the event to the attendance.
+                        </li>
+                        <li> <b>(Recurring events)</b> 
+                            As a student, I would like to know whether events are one-time or recurring so that 
+                            I can plan better.
+                        </li>
+
+                        <li> <b>(Calendar page)</b> 
+                            As a user, I would like to see upcoming events of interested clubs in a calendar so
+                            I can plan my time accordingly.
+                        </li>
+
+                        <li> <b>(Media types)</b> 
+                            As an organization, I would like to be able to share different media with my event, such 
+                            as images and flyers, so I don’t have to re-describe the information.
+                        </li>
+
+                        <li> <b>(Share an event with a link)</b> 
+                            As an organization, I want to be able to share event information easily, such as with a link 
+                            or QR code. I will be able to share details on physical media such as fliers, centralizing information.
+                        </li>
+
+                        <li> <b>(Discovery)</b> 
+                            As an organization, I want users to be able to find my events so that I can gain new members.
+                        </li>
+                    </ol>
+
+                    <h4> Optional Extra Features </h4>
+                    <ol>
+                        <li>
+                            <b>(Authentication system with permissions)</b> 
+                            As a club officer, I would like to be able to create and edit my club’s events from my own account 
+                            that is linked to the club so I don’t have to switch accounts to do work for my club.
+                        </li>
+
+                        <li>
+                            <b>(Directions)</b> 
+                            As a student attending an event, I would like information on how to get to an event (such as a map or
+                            instructions), reducing stress and preventing myself from getting lost.
+                        </li>
+
+                        <li>
+                            <b>(Global Map)</b> 
+                            As a student, I would like to see all ongoing events around campus currently or in the near future, 
+                            so that I can discover new events.
+                        </li>
+
+                        <li>
+                            <b>(Profile)</b> 
+                            As a student, I would like to create an account using my UCSD email and be able to customize my profile 
+                            however I want.
+                        </li>
+
+                        <li>
+                            <b>(Friends)</b> 
+                            As a student, I would like to keep track of the events my friends are attending to help me decide if I 
+                            want to attend events or not.
+                        </li>
+
+                        <li>
+                            <b>(Privacy)</b> 
+                            As a student, I would like the option to hide the events I am going to in the interest of privacy.
+                        </li>
+
+                        <li>
+                            <b>(Occupancy Limits)</b> 
+                            As an organization, I would like to be able to cap the number of students who are specified they are 
+                            “going” to an event such as to not exceed room capacities.
+                        </li>
+
+                        <li>
+                            <b>(Notification)</b> 
+                            As a student, I would like to be notified about changes to the event information, such as time or 
+                            location, so that I am kept up to date with event information.
+                        </li>
+
+                        <li>
+                            <b>(Integration)</b> 
+                            As a student, I would like to integrate my events with other calendars I use, such as Google Calendar 
+                            to be able to see my events with my other occasions.
+                        </li>
+
+                        <li>
+                            <b>(History)</b> 
+                            As a user, I would like to see all the information related to my account as well as the 
+                            recent events attended.
+                        </li>
+                    </ol>
+                </section>
+
+                <section id="socal-overview">
+                    <h3> Customers, Stakeholders, and Competitors </h3>
+                    <h4> Customers </h4>
+                    <p> Primarily students at UC San Diego and some other individuals related 
+                        to UC San Diego organizations.</p>
+                        <ul>
+                            <li> I want a centralized place where I can effortlessly track the events related
+                                to organizations in UC San Diego and know more about them. </li>
+                            <li> I want a place where I can discover new organizations and their events as
+                                well as events hosted by organizations I follow. </li>
+                                
+                        </ul>
+                    <h4> Stakeholders </h4>
+                    <p> Students - A student who attends some events, and is a member of some organizations. </p>
+                    <ul> <li> I want a centralized place where I can effortlessly track the events I am attending 
+                            and discover events hosted by organizations I follow. </li> </ul>
+                    <p> Organization - A club or other group, typically affiliated with UC San Diego. </p>
+                    <ul> <li> As an organization, I would like to be able to list events in a centralized 
+                            location to advertise events with a much further reach. </li> </ul>
+                    <p> Individuals within organizations, such as club officers and board members. </p>
+                    <ul> <li> I would like to view and manage the events I am involved in. </li> </ul>
+
+                    <h4> Competitors </h4>
+                    <ul>
+                        <li> Other Social Media organizations use to share events, such as Discord and Instagram.</li>
+                    </ul>
+                </section>
+
+                <section id="socal-risks">
+                    <h3> Risks </h3>
+                    <h4> Risk that may lead to the failure of the product </h4>
+                        <ol>
+                            <li> Customers might have stickiness to other pre-existing apps and do not want to add the
+                                 new platform to their advertising. </li>
+
+                            <li> Authentication system is complicated and can be easily messed up.</li>
+
+                            <li> Bad design and coding leading to convolution and then it becomes hard to add new 
+                                features or understand what is going on. </li>
+
+                            <li> The calendar page might be tricky to implement especially with respect to being 
+                                responsive to day-to-day changes. </li>
+
+                            <li> Maintaining the ability to host the website on everyone’s devices. For example, all persons 
+                                would need to be able to successfully run the website and database at minimum. </li>
+                        </ol>
+
+                     <h4> Plan to resolve the most serious risks </h4>
+                        <ol> 
+                            <li> Connect with student networks and the access to multiple popular orgs for 
+                                advertising the app. </li>
+
+                            <li> Backup if authentication does not work: Only club accounts can edit and post events. 
+                                Org leads can switch to the club account to manage events. </li>
+
+                            <li> Maintain simplicity by sticking to few yet essential features; make use of peer and 
+                                user feedback to help improve design and code. </li>
+
+                            <li> Provide an ordered list of all related events without any calendar. </li>
+
+                            <li> Initial runs would involve capping the number of users and clubs using the website 
+                                until proper infrastructure is obtained. Other ways include capping the number of events 
+                                one can be interested in, number of friends per user and number of events a club can publish 
+                                on a given timeframe. </li>
+                        </ol>
+                </section>
+
+                <section id="socal-techPlan">
+                    <h3> Technology Plan</h3>
+                    <p> Along with using React/TypeScript/HTML/CSS, we will certainly need a database to store
+                        information about users, clubs, events, and more across a few tables. A few of our group
+                        members already have experience with SQL and relational databases, so it shouldn’t be
+                        overwhelming to add this to our plate. We will be sure to assign people to tasks according to
+                        their strengths and experience.
+                    </p>
+                    <p>The other service that we will need is a backend, for which we were thinking of using the
+                        flask module for python. Every member of our group has experience with python and some
+                        even have experience with flask, meaning there shouldn’t be a large amount of research
+                        required on this task. We believe our app will be more front-end-heavy in terms of development
+                        effort, but we will designate at least one member of the team to focus more on the backend.
+                    </p>
+                </section>
+            </section>
+
+            <div id="socal-mockups">
+                <h2> Wireframes & Mock-Ups</h2>
+            </div>
+         </div>
+    </div>
+</body>
+</html>
