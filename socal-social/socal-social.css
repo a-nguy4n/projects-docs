@@ -123,3 +123,11 @@ iframe{
 #socal-visionDoc section{
     margin: 2%;
 }
+
+#socal-mockups{
+    margin-bottom: 5%;
+}
+
+#socal-mockups iframe{
+     height: 45vw;
+}
