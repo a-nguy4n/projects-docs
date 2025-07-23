@@ -1,11 +1,11 @@
 @font-face{
     font-family: "Doppio One";
-    src: url("/socal-social/fonts/DoppioOne-Regular.ttf");
+    src: url("../socal-social/fonts/DoppioOne-Regular.ttf");
 }
 
 @font-face{
     font-family: "Open Sans";
-    src: url("/socal-social/fonts/OpenSans-VariableFont_wdth,wght.ttf");
+    src: url("../socal-social/fonts/OpenSans-VariableFont_wdth,wght.ttf");
 }
 
 
