@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather Wadrobe: Aura Fit</title>
+    <link rel="stylesheet" href="../aura-fit/weather-wardrobe.css">
+</head>
+<body>
+    <div class="content">
+         <div class="tableContent-bar">
+            <h1> Weather Wardrobe </h1>
+            <img src="../aura-fit/documents/weather-graphic.png" id="weather-graphic" alt="Weather Graphic">
+            <a href="#weather-demo" id="weather-navOne"> ESP-32 Temperature Data Collection Video </a>
+            <a href="#weather-about"> About </a>
+            <a href="#weather-interface"> Interface Design </a>
+            <a href="#weather-architecture">Architecture Design </a>
+                <div class="sub-sections">
+                    <a href="#weather-ERD">  Entity-Relationship Diagram </a>
+                    <a href="#weather-sequence"> Sequence Diagram </a>
+                    <a href="#weather-component"> Component Diagram</a>
+                </div>
+         </div>
+
+         <div class="documentation">
+            <div id="weather-demo">
+                <h2>ESP-32 Temp. Data Collection Video</h2>
+                <iframe
+                    src="https://www.youtube.com/embed/aVlQLPY4kJ0"
+                    title="SoCal Social Demo Video"
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen> 
+                </iframe>
+            </div> 
+            
+            <section id="weather-about">
+                <h2>About</h2>
+                <p> 
+                    Weather Wardrobe is a personalized IoT wardrobe assistant that helps users choose outfits based on live 
+                    environmental data and weather forecasts. Built as a full-stack web app, it integrates ESP32 sensors, a secure 
+                    user dashboard, and an AI assistant to deliver smart wardrobe recommendations. 
+                </p>
+                <p>
+                    After signing up, users can register their own ESP32 devices and access a secure dashboard that visualizes 
+                    temperature data in real time via MQTT. The system combines sensor readings with weather forecasts to power an AI 
+                    assistant that answers questions like “What should I wear today?”. 
+                </p>
+            </section> 
+
+            <div id="weather-interface">
+                <h2>Interface Design</h2>
+                <iframe src="../aura-fit/documents/Design_Doc.pdf">
+                    This browser does not support PDFs. Please download the PDF: 
+                    <a href="../aura-fit/documents/Design_Doc.pdf">Download PDF</a>
+                </iframe>
+            </div>
+
+            <div id="weather-architecture">
+                <h2>Architecture Design</h2>
+
+                <h3> Entity-Relationship Diagram </h3>
+                <img src="../aura-fit/documents/weather-ERD.png" id="weather-ERD" alt="ERD Diagram">
+
+                <h3> Sequence Diagram </h3>
+                <iframe src="../aura-fit/documents/weather-sequence.pdf">
+                    This browser does not support PDFs. Please download the PDF: 
+                    <a href="../aura-fit/documents/weather-sequence.pdf">Download PDF</a>
+                </iframe>
+
+                <h3> Component Diagram </h3>
+                <img src="../aura-fit/documents/weather-component.png" id="weather-component" alt="Component Diagram">
+            </div>
+          
+         </div>
+    </div>
+</body>
+</html>

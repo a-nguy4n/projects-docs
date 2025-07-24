@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("../aura-fit/fonts/RobotoMono-VariableFont_wght.ttf");
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    overflow-x: hidden;
+    font-family: "Roboto Mono";
+}
+
+h1{
+    color: white;
+    font-size: 2.1vw; 
+    white-space: nowrap;
+}
+
+h2{
+    font-size: 1.9vw;
+    color: #5f8ec6;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 1.5vw;
+    color: #477dc1;
+    font-weight: 400;
+    margin-left: 3%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-bottom: 7%;
+}
+
+a:hover{
+    color: #2f6fb8;
+}
+
+p,
+ol,
+ul{
+    font-weight: 400;
+    font-size: 1.25vw;
+    color: #0b2749;
+    margin: 2%;
+}
+
+iframe{
+    margin: 1% 2% 1% 5.5%;
+    width: 60vw;
+    height: 35vw;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    gap: 3%;
+    overflow: hidden;
+}
+
+.tableContent-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 25%;
+    padding: 2%;
+    background: #76A2D6;
+}
+
+#weather-graphic{
+    width: 13vw;
+    margin: 5% 0%;
+}
+
+#weather-navOne{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+}
+
+.sub-sections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-sections a{
+    font-size: 1.1vw;
+}
+
+.documentation{
+    display: flex;
+    flex-direction: column;    
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+#weather-ERD{
+    width: 65vw;
+    margin: 1% 5%;
+}
+
+#weather-sequence{
+    
+}
+
+#weather-component{
+    width: 55vw;
+    margin: 1% 10% 1% 13%;
+}
