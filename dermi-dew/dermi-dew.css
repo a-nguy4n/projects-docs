@@ -1,20 +1,20 @@
 @font-face{
     font-family: "Slackside One";
-    src: url("/dermi-dew/fonts/SlacksideOne-Regular.ttf") format("truetype");
+    src: url("../dermi-dew/fonts/SlacksideOne-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face{
     font-family: "Sarala Regular";
-    src: url("/dermi-dew/fonts/Sarala-Regular.ttf") format("truetype");
+    src: url("../dermi-dew/fonts/Sarala-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face{
     font-family: "Sarala Bold";
-    src: url("/dermi-dew/fonts/Sarala-Bold.ttf") format("truetype");
+    src: url("../dermi-dew/fonts/Sarala-Bold.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
