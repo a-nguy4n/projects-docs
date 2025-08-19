@@ -43,10 +43,17 @@ p{
     margin: 1% 3%;
 }
 
+figcaption{
+    font-family: "Sarala Bold";
+    font-size: 1.3vw;
+    color:#085fb0;
+}
+
 section,
 #dermi-webDemo,
 #dermi-demoPhoto,
-#dermi-report{
+#dermi-report,
+#dermi-interface{
     margin: 1% 2%;
     padding: 0.5%;
 }
@@ -279,4 +286,80 @@ iframe{
     padding: 0.5% 3%;
     width: 90vw;
     height: 100vh;
+}
+
+#dermi-interface h2{
+    margin-bottom: 3%;
+}
+
+.photo-grid.photo-row{
+  display: flex;
+  gap: 2%;                 
+  margin-bottom: 3%;
+  justify-content: center;   
+  flex-wrap: wrap;           
+}
+
+.photo-grid.photo-row figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 16%;          
+  text-align: center;
+}
+
+.photo-grid.photo-row img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(11, 108, 205, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.photo-grid.photo-row img:hover {
+  transform: scale(1.05);
+}
+
+.photo-grid.photo-row figcaption{
+  margin-top: 8px;
+  font-size: 1vw;
+  color: #0f65a6;
+}
+
+#popup-img{
+    width: 60%;
+}
+
+.ui-popup{
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8); 
+  display: none; 
+  justify-content: center;
+  align-items: center;
+  z-index: 100; 
+}
+
+.ui-popup img{
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.ui-popup .close-btn{
+  position: absolute;
+  top: 3%;
+  right: 2%;
+  font-size: 2.75vw;
+  color: white;
+  cursor: pointer;
+}
+
+.ui-popup .close-btn:hover{
+    color: rgb(223, 2, 2);
 }

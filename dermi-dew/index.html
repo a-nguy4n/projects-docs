@@ -9,9 +9,9 @@
 <body>
     <div class="content-container">
         <div class="introBody">
-            <img id="sunLogo" src="../dermi-dew/images/sunLogo.png">
+            <img id="sunLogo" src="../dermi-dew/images/sunLogo.png" alt="Sun Logo">
             <h1>DERMIDEW </h1>
-            <img id="dewIcon" src="../dermi-dew/images/dewIcon.png">
+            <img id="dewIcon" src="../dermi-dew/images/dewIcon.png" alt="Dew Icon">
         
         </div>
         
@@ -67,11 +67,107 @@
             </iframe>
         </div>
 
+        <div id="dermi-interface">
+            <h2> User Interface</h2>
+
+            <div class="ui-popup" id="photo-popup">
+                <span class="close-btn" onclick="closePopup()">&times;</span>
+                <img id="popup-img" src="" alt="Enlarged Image">
+            </div>
+
+            <div class="photo-grid photo-row">
+                <figure>
+                    <img src="../dermi-dew/documents/ui-photos/page_flow-diagram.png" alt="Page Flow Diagram" onclick="openPopup(this.src)">
+                    <figcaption> DermiDew Page Flow Diagram </figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="../dermi-dew/documents/ui-photos/signUp.png" alt="Sign Up Page" onclick="openPopup(this.src)">
+                    <figcaption> Sign Up Page </figcaption>
+                </figure>
+               
+                <figure>
+                    <img src="../dermi-dew/documents/ui-photos/logIn.png" alt="Log In Page" onclick="openPopup(this.src)">
+                    <figcaption> Log In Page </figcaption>
+                </figure>
+            </div>
+
+            <div class="photo-grid photo-row">
+                <figure>
+                    <img src="../dermi-dew/documents/ui-photos/landing-mainPage.png" alt="Landing Main Page" onclick="openPopup(this.src)">
+                    <figcaption> Landing Title Page (1) </figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="../dermi-dew/documents/ui-photos/aboutUs.png" alt="Landing About Us Section" onclick="openPopup(this.src)">
+                    <figcaption> Landing About Us Section (2)</figcaption>
+                </figure>
+               
+                <figure>
+                    <img src="../dermi-dew/documents/ui-photos/howTo.png" alt="How DermiDew Works" onclick="openPopup(this.src)">
+                    <figcaption> Landing "How DermiDew Works" (3) </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="../dermi-dew/documents/ui-photos/features.png" alt="Landing Features Section" onclick="openPopup(this.src)">
+                    <figcaption> Landing Features Section (4) </figcaption>
+                </figure>
+            </div>
+
+              <div class="photo-grid photo-row">
+                <figure>
+                    <img src="../dermi-dew/documents/ui-photos/home-dash.png" alt="Home Dashboard Page" onclick="openPopup(this.src)">
+                    <figcaption> Home Dashboard Page </figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="../dermi-dew/documents/ui-photos/profile-device.png" alt="Profile Page: Skin Profile Section" onclick="openPopup(this.src)">
+                    <figcaption> Profile Page: Skin Profile Section</figcaption>
+                </figure>
+               
+                <figure>
+                    <img src="../dermi-dew/documents/ui-photos/profile-skin.png" alt="Profile Page: Skin Profile Section" onclick="openPopup(this.src)">
+                    <figcaption> Profile Page: Skin Profile Section </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="../dermi-dew/documents/ui-photos/explore-products.png" alt="Explore Products Page" onclick="openPopup(this.src)">
+                    <figcaption> Explore Products Page </figcaption>
+                </figure>
+            </div>
+
+
+              <div class="photo-grid photo-row">
+                <figure>
+                    <img src="../dermi-dew/documents/ui-photos/routine-feature.png" alt="My Current Routine Window on Dashboard" onclick="openPopup(this.src)">
+                    <figcaption> "My Current Routine" Window on Dashboard </figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="../dermi-dew/documents/ui-photos/goal-feature.png" alt=" My Skincare Goals Window on Dashboard" onclick="openPopup(this.src)">
+                    <figcaption> "My Skincare Goals" Window on Dashboard </figcaption>
+                </figure>
+               
+                <figure>
+                    <img src="../dermi-dew/documents/ui-photos/skin-analysis-feature.png" alt="My Skincare Analysis Window on Dashboard" onclick="openPopup(this.src)">
+                    <figcaption> "My Skincare Analysis" Window on Dashboard </figcaption>
+                </figure>
+            </div>
+
+            <div class="photo-grid photo-row">
+                <figure>
+                    <img src="../dermi-dew/documents/ui-photos/reviewlog-entry.png" alt="Product Review Log Entry Window" onclick="openPopup(this.src)">
+                    <figcaption> "Product Review Log Entry" Window</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="../dermi-dew/documents/ui-photos/reviewlog-history.png" alt="My Past Product Review Logs Window" onclick="openPopup(this.src)">
+                    <figcaption> "My Past Product Review Logs" Window </figcaption>
+                </figure>
+            </div>
+        </div>
+
     </div>
-
-
-
-
     <script  src="../dermi-dew/dermi-dew.js"></script>
 </body>
 </html>
